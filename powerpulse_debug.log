@@ -1,0 +1,1272 @@
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = powerpulseapp5@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <powerpulseapp5@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load ML artifacts: FileNotFoundError('Model file not found: energy_model.h5')
+FORGOT REQUEST START
+role = user
+email = rajeshwarareddy85@gmail.com
+org_name = None
+account found = True
+OTP stored in DB
+Generated OTP = 551303
+EMAIL DEBUG START
+TO = rajeshwarareddy85@gmail.com
+ROLE = user
+MAIL_SERVER = smtp.gmail.com
+MAIL_PORT = 587
+MAIL_USERNAME = powerpulseapp5@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <powerpulseapp5@gmail.com>
+EMAIL_CONFIGURED = True
+EMAIL SEND FAILED
+EMAIL ERROR = SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ae840c8171sm30169695ad.89 - gsmtp')
+EMAIL DEBUG END
+EMAIL FAILED, USING DEV FALLBACK
+OTP = 551303
+send_result = {'ok': True, 'error': "SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ae840c8171sm30169695ad.89 - gsmtp')", 'fallback': True}
+DEV fallback used
+FORGOT REQUEST END
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = powerpulseapp5@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <powerpulseapp5@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load ML artifacts: FileNotFoundError('Model file not found: energy_model.h5')
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load ML artifacts: FileNotFoundError('Model file not found: energy_model.h5')
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load ML artifacts: TypeError("<class 'keras.src.models.sequential.Sequential'> could not be deserialized properly. Please ensure that components that are Python object instances (layers, models, etc.) returned by `get_config()` are explicitly deserialized in the model's `from_config()` method.\n\nconfig={'module': 'keras', 'class_name': 'Sequential', 'config': {'name': 'sequential_2', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None, 'shared_object_id': 2893571840656}, 'layers': [{'module': 'keras.layers', 'class_name': 'InputLayer', 'config': {'batch_shape': [None, 30, 1], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer_2', 'optional': False}, 'registered_name': None}, {'module': 'keras.layers', 'class_name': 'LSTM', 'config': {'name': 'lstm_4', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None, 'shared_object_id': 2893571840656}, 'return_sequences': True, 'return_state': False, 'go_backwards': False, 'stateful': False, 'unroll': False, 'zero_output_for_mask': False, 'units': 50, 'activation': 'tanh', 'recurrent_activation': 'sigmoid', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None, 'shared_object_id': 2892921875696}, 'recurrent_initializer': {'module': 'keras.initializers', 'class_name': 'Orthogonal', 'config': {'seed': None, 'gain': 1.0}, 'registered_name': None, 'shared_object_id': 2893593459632}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None, 'shared_object_id': 2893161598800}, 'unit_forget_bias': True, 'kernel_regularizer': None, 'recurrent_regularizer': None, 'bias_regularizer': None, 'activity_regularizer': None, 'kernel_constraint': None, 'recurrent_constraint': None, 'bias_constraint': None, 'dropout': 0.0, 'recurrent_dropout': 0.0, 'seed': None}, 'registered_name': None, 'build_config': {'input_shape': [None, 30, 1]}}, {'module': 'keras.layers', 'class_name': 'LSTM', 'config': {'name': 'lstm_5', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None, 'shared_object_id': 2893571840656}, 'return_sequences': False, 'return_state': False, 'go_backwards': False, 'stateful': False, 'unroll': False, 'zero_output_for_mask': False, 'units': 50, 'activation': 'tanh', 'recurrent_activation': 'sigmoid', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None, 'shared_object_id': 2892921876240}, 'recurrent_initializer': {'module': 'keras.initializers', 'class_name': 'Orthogonal', 'config': {'seed': None, 'gain': 1.0}, 'registered_name': None, 'shared_object_id': 2892963363536}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None, 'shared_object_id': 2893161601760}, 'unit_forget_bias': True, 'kernel_regularizer': None, 'recurrent_regularizer': None, 'bias_regularizer': None, 'activity_regularizer': None, 'kernel_constraint': None, 'recurrent_constraint': None, 'bias_constraint': None, 'dropout': 0.0, 'recurrent_dropout': 0.0, 'seed': None}, 'registered_name': None, 'build_config': {'input_shape': [None, 30, 50]}}, {'module': 'keras.layers', 'class_name': 'Dense', 'config': {'name': 'dense_2', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None, 'shared_object_id': 2893571840656}, 'units': 1, 'activation': 'linear', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None, 'quantization_config': None}, 'registered_name': None, 'build_config': {'input_shape': [None, 50]}}], 'build_input_shape': [None, 30, 1]}, 'registered_name': None, 'build_config': {'input_shape': [None, 30, 1]}, 'compile_config': None}.\n\nException encountered: <class 'keras.src.layers.core.dense.Dense'> could not be deserialized properly. Please ensure that components that are Python object instances (layers, models, etc.) returned by `get_config()` are explicitly deserialized in the model's `from_config()` method.\n\nconfig={'module': 'keras.layers', 'class_name': 'Dense', 'config': {'name': 'dense_2', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None, 'shared_object_id': 2893571840656}, 'units': 1, 'activation': 'linear', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None, 'quantization_config': None}, 'registered_name': None, 'build_config': {'input_shape': [None, 50]}}.\n\nException encountered: Error when deserializing class 'Dense' using config={'name': 'dense_2', 'trainable': True, 'dtype': 'float32', 'units': 1, 'activation': 'linear', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None, 'quantization_config': None}.\n\nException encountered: Unrecognized keyword arguments passed to Dense: {'quantization_config': None}")
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = enery_sarima_model.pkl
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = enery_sarima_model.pkl
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = enery_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load ML artifacts: FileNotFoundError('Model file not found: enery_sarima_model.pkl')
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_sarima_model.pkl
+DATASET_PATH = household_power_consumption.txt
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+ML artifacts loaded
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+❌ DB connection failed!
+DB URI: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+Error: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+✅ Fix steps (XAMPP):
+1) Open XAMPP Control Panel
+2) Start MySQL
+3) Ensure port is 3306
+4) Then run: python app.py
+⚠️ Falling back to SQLite (dev mode).
+❌ SQLite fallback also failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Skipping db.create_all because DB is not connected
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.5}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.5
+consumer found = False
+SAVE DAILY USAGE payload = {'mandal': 'ChennaiSouth', 'currentMonthUsage': 12540.5, 'todayUsage': 420.75, 'currentLoad': 88.2}
+consumer_no = 
+usage_date_str = 
+usage_kwh = None
+SAVE DAILY USAGE payload = 12.8
+ERROR in /user/daily-usage = AttributeError("'float' object has no attribute 'get'")
+SAVE DAILY USAGE payload = 12.8
+ERROR in /user/daily-usage = AttributeError("'float' object has no attribute 'get'")
+SAVE DAILY USAGE payload = 12.8
+ERROR in /user/daily-usage = AttributeError("'float' object has no attribute 'get'")
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+consumer found = False
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 21.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 21.0
+consumer found = False
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 21.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 21.0
+consumer found = False
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+consumer found = False
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+consumer found = False
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+consumer found = False
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+consumer found = False
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+consumer found = False
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+consumer found = False
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+user found = False
+HISTORY consumerNo = CN000014
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN000014', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN000014
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+user found = False
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+HISTORY consumerNo = CN000001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN000001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN000001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+user found = True
+SAVE DAILY USAGE SUCCESS for CN000001 2026-03-07 12.0
+HISTORY consumerNo = CN000001
+HISTORY rows found = 1
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 14.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 14.0
+HISTORY consumerNo = CN000001
+HISTORY rows found = 1
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+HISTORY consumerNo = CN1002
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1002', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1002
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+HISTORY consumerNo = CN1002
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1002', 'usageDate': '2026-03-07', 'usageKwh': 12.0}
+consumer_no = CN1002
+usage_date_str = 2026-03-07
+usage_kwh = 12.0
+user found = True
+SAVE DAILY USAGE SUCCESS = CN1002 2026-03-07 12.0
+HISTORY consumerNo = CN1002
+HISTORY rows found = 1
+HISTORY consumerNo = CN1003
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1003', 'usageDate': '2026-03-07', 'usageKwh': 13.0}
+consumer_no = CN1003
+usage_date_str = 2026-03-07
+usage_kwh = 13.0
+user found = True
+SAVE DAILY USAGE SUCCESS = CN1003 2026-03-07 13.0
+HISTORY consumerNo = CN1003
+HISTORY rows found = 1
+HISTORY consumerNo = CN1003
+HISTORY rows found = 1
+HISTORY consumerNo = CN1003
+HISTORY rows found = 1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1003', 'usageDate': '2026-03-07', 'usageKwh': 15.0}
+consumer_no = CN1003
+usage_date_str = 2026-03-07
+usage_kwh = 15.0
+user found = True
+SAVE DAILY USAGE SUCCESS = CN1003 2026-03-07 15.0
+HISTORY consumerNo = CN1003
+HISTORY rows found = 1
+HISTORY consumerNo = CN1003
+HISTORY rows found = 1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1003', 'usageDate': '2026-03-07', 'usageKwh': 15.0}
+consumer_no = CN1003
+usage_date_str = 2026-03-07
+usage_kwh = 15.0
+user found = True
+SAVE DAILY USAGE SUCCESS = CN1003 2026-03-07 15.0
+HISTORY consumerNo = CN1003
+HISTORY rows found = 1
+HISTORY consumerNo = CN1003
+HISTORY rows found = 1
+HISTORY consumerNo = CN1001
+HISTORY rows found = 0
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 36.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 36.0
+user found = True
+SAVE DAILY USAGE SUCCESS = CN1001 2026-03-07 36.0
+HISTORY consumerNo = CN1001
+HISTORY rows found = 1
+HISTORY consumerNo = CN1001
+HISTORY rows found = 1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-07', 'usageKwh': 36.0}
+consumer_no = CN1001
+usage_date_str = 2026-03-07
+usage_kwh = 36.0
+user found = True
+SAVE DAILY USAGE SUCCESS = CN1001 2026-03-07 36.0
+HISTORY consumerNo = CN1001
+HISTORY rows found = 1
+HISTORY consumerNo = CN1001
+HISTORY rows found = 1
+HISTORY consumerNo = CN1001
+HISTORY rows found = 31
+HISTORY consumerNo = CN1001
+HISTORY rows found = 31
+######## REAL BACKEND STARTED ########
+__file__ = C:\Users\Rajesh\Desktop\app backend\Final_Year_Project-main\app.py
+MAIL_USERNAME = yourgmail@gmail.com
+MAIL_DEFAULT_SENDER = PowerPulse <yourgmail@gmail.com>
+MAIL_CONFIGURED = True
+DEV_OTP_FALLBACK = True
+MODEL_PATH = energy_lstm_model.keras
+SCALER_PATH = scaler.save
+SARIMA_MODEL_PATH = energy_sarima_model.pkl
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+DB create_all completed
+WARNING: Could not load LSTM artifacts: FileNotFoundError('Model file not found: energy_lstm_model.keras')
+SARIMA artifact loaded
+HISTORY consumerNo = CN1002
+HISTORY rows found = 31
+HISTORY consumerNo = CN1002
+HISTORY rows found = 31
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1002', 'usageDate': '2026-03-08', 'usageKwh': 23.0}
+consumer_no = CN1002
+usage_date_str = 2026-03-08
+usage_kwh = 23.0
+user found = True
+SAVE DAILY USAGE SUCCESS = CN1002 2026-03-08 23.0
+HISTORY consumerNo = CN1002
+HISTORY rows found = 32
+HISTORY consumerNo = CN1002
+HISTORY rows found = 32
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-08', 'usageKwh': 58.0}
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+❌ DB connection failed!
+DB URI: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+Error: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+✅ Fix steps (XAMPP):
+1) Open XAMPP Control Panel
+2) Start MySQL
+3) Ensure port is 3306
+4) Then run: python app.py
+⚠️ Falling back to SQLite (dev mode).
+❌ SQLite fallback also failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+❌ DB connection failed!
+DB URI: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+Error: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+✅ Fix steps (XAMPP):
+1) Open XAMPP Control Panel
+2) Start MySQL
+3) Ensure port is 3306
+4) Then run: python app.py
+⚠️ Falling back to SQLite (dev mode).
+❌ SQLite fallback also failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1002', 'usageDate': '2026-03-08', 'usageKwh': 85.0}
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1002, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-08', 'usageKwh': 8.6}
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-08', 'usageKwh': 5.6}
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1001, demo=True, total=169.1
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1004', 'usageDate': '2026-03-08', 'usageKwh': 25.0}
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1004', 'usageDate': '2026-03-08', 'usageKwh': 60.64}
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1004', 'usageDate': '2026-03-08', 'usageKwh': 56.82}
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+WARNING: Real prediction failed, switching to demo mode. Reason: Model file not found: energy_lstm_model.keras
+DEBUG: Returning success for CN1004, demo=True, total=169.1
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+DEBUG: 30 usage rows found for CN1004
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=43.5340, scale=0.0302
+DEBUG: Scaled predictions (first 5) = [55.98, 46.62, 48.68, 43.04, 45.11]
+DEBUG: Returning real prediction for CN1004, total=1306.03 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1002
+DEBUG: 32 usage rows found for CN1002
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=15.4062, scale=0.0107
+DEBUG: Scaled predictions (first 5) = [19.81, 16.5, 17.23, 15.23, 15.96]
+DEBUG: Returning real prediction for CN1002, total=462.18 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+DEBUG: 62 usage rows found for CN1001
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=9.9597, scale=0.0069
+DEBUG: Scaled predictions (first 5) = [12.81, 10.67, 11.14, 9.85, 10.32]
+DEBUG: Returning real prediction for CN1001, total=298.81 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+DEBUG: 62 usage rows found for CN1001
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=9.9597, scale=0.0069
+DEBUG: Scaled predictions (first 5) = [12.81, 10.67, 11.14, 9.85, 10.32]
+DEBUG: Returning real prediction for CN1001, total=298.81 kWh
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1001', 'usageDate': '2026-03-08', 'usageKwh': 5.8}
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+DEBUG: 62 usage rows found for CN1001
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=9.9629, scale=0.0069
+DEBUG: Scaled predictions (first 5) = [12.81, 10.67, 11.14, 9.85, 10.32]
+DEBUG: Returning real prediction for CN1001, total=298.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1001
+DEBUG: 62 usage rows found for CN1001
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=9.9629, scale=0.0069
+DEBUG: Scaled predictions (first 5) = [12.81, 10.67, 11.14, 9.85, 10.32]
+DEBUG: Returning real prediction for CN1001, total=298.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+DEBUG: 30 usage rows found for CN1004
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=43.5340, scale=0.0302
+DEBUG: Scaled predictions (first 5) = [55.98, 46.62, 48.68, 43.04, 45.11]
+DEBUG: Returning real prediction for CN1004, total=1306.03 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+DEBUG: 30 usage rows found for CN1004
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=43.5340, scale=0.0302
+DEBUG: Scaled predictions (first 5) = [55.98, 46.62, 48.68, 43.04, 45.11]
+DEBUG: Returning real prediction for CN1004, total=1306.03 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+DEBUG: 30 usage rows found for CN1004
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=43.5340, scale=0.0302
+DEBUG: Scaled predictions (first 5) = [55.98, 46.62, 48.68, 43.04, 45.11]
+DEBUG: Returning real prediction for CN1004, total=1306.03 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1004
+DEBUG: 30 usage rows found for CN1004
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=43.5340, scale=0.0302
+DEBUG: Scaled predictions (first 5) = [55.98, 46.62, 48.68, 43.04, 45.11]
+DEBUG: Returning real prediction for CN1004, total=1306.03 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 36 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1639, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.93, 6.6, 6.89, 6.09, 6.39]
+DEBUG: Returning real prediction for CN1005, total=184.91 kWh
+SAVE DAILY USAGE payload = {'consumerNo': 'CN1005', 'usageDate': '2026-03-09', 'usageKwh': 5.8}
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+AI Chat request received
+AI Error: Key missing
+AI Chat request received
+AI Error: Key missing
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+AI Chat request received
+AI User Message: hello, Consumer: CN1001
+Calling OpenAI with model: gpt-4o
+OpenAI status: 429
+OpenAI Error: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+AI Chat request received
+AI User Message: giv, Consumer: CN1001
+Calling OpenAI with model: gpt-4o
+OpenAI status: 429
+OpenAI Error: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+AI Chat request received
+AI User Message: hello, Consumer: CN1001
+Calling OpenAI with model: gpt-4o
+OpenAI status: 429
+OpenAI Error: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+AI Chat request received
+AI User Message: hello, Consumer: CN1001
+Calling OpenAI with model: gpt-4o
+OpenAI status: 429
+OpenAI Error: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+AI Chat request received
+AI User Message: hello, Consumer: CN1001
+Calling OpenAI with model: gpt-4o
+OpenAI status: 429
+OpenAI Quota Error: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+AI Chat request received
+AI User Message: enter, Consumer: CN1001
+Calling OpenAI with model: gpt-4o
+OpenAI status: 429
+OpenAI Quota Error: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+AI Chat request received
+AI User Message: hell, Consumer: CN1005
+Calling OpenAI with model: gpt-4o
+OpenAI status: 429
+OpenAI Quota Error: {
+    "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+    }
+}
+
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+ROUTE HIT: /predict-next-30-from-db
+DEBUG: Processing prediction for CN1005
+DEBUG: 37 usage rows found for CN1005
+DEBUG: SARIMA raw forecast (first 5) = [1854.2007470839435, 1544.3435554854457, 1612.5759467206462, 1425.725361977697, 1494.2690706859541]
+DEBUG: sarima_mean=1442.0414, user_mean=6.1541, scale=0.0043
+DEBUG: Scaled predictions (first 5) = [7.91, 6.59, 6.88, 6.08, 6.38]
+DEBUG: Returning real prediction for CN1005, total=184.61 kWh
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
+✅ DB connected: mysql+pymysql://root:@localhost:3306/powerpulse_backend
+WARNING: LSTM artifacts not loaded: Model file not found: energy_lstm_model.keras
+SARIMA model loaded successfully
